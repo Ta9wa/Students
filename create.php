@@ -13,11 +13,10 @@
 </head>
 <body>
 <div class="container">
-    <form action="index.php" method="post">
+    <form action="store.php" method="post">
     
-        
         <div class="form-group">
-		    <label for="usr">Firstnaem :</label>
+		    <label for="usr">Firstname :</label>
             <input type="text" name="firstname" class="form-control"><br>
         </div>
         <div>
@@ -33,8 +32,8 @@
             <input type="number" name="phone" class="form-control"><br>
 		
         </div>
-        <button type="submit" class="btn btn-primary">Valider</button>
-        <button type="reset" class="btn btn-primary">Effacer</button>
+        <button type="submit" class="btn btn-outline-primary">Valider</button>
+        <button type="reset" class="btn btn-secondary">Effacer</button>
 
 
     
